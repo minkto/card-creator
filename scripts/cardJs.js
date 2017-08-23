@@ -6,7 +6,7 @@ var colorButton = document.getElementsByName('color')[0];
 var fileInputButton = document.getElementsByName('file-name')[0];
 var dateInput = document.getElementsByName('date-of-birth')[0]
 
-var submitButton = document.getElementsByName('enter')[0];
+var submitButton = document.getElementsByName('finish')[0];
 
 
 /* This method helps to change the photo icon based on what is uploaded */
