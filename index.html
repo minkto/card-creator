@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Create your own ID card </title>
+	<meta charset = "utf-8">
+	<link href = "styles/card-horizontal.css" rel = "stylesheet" type = "text/css">
+  </head>
+  <body>
+  
+    <div id = "main-content">
+      <h1> Create your own ID card</h1>	
+	  
+	  <div class = "details-container">
+	    <div class = "input-box">
+		  Title Of Card:<input type = "text" name = "cardtitle">
+	      Forename:<input type = "text" name = "forename" value = "">
+	      Surname:<input type = "text" name = "surname">
+		  Date Of Birth:<input type = "text" name = "date-of-birth" placeholder="dd/mm/yyyy">
+		  Image<input type = "file" name = "file-name">
+		  Color:<input type = "color" value = "lool"name = "color">
+		  Finish:<input type = "submit" name = "enter" value = "create">
+		</div>		
+	  </div>
+	  
+	  <div class = "card-container">
+	    <h2>Employee Card </h2>
+		<img id= "card-photo" src = "images/defaultPhoto.jpg" alt = "card-photo"> 
+		<div style = "clear:left;"></div>
+	    <p class = "card-label">Forename:</p>
+	    <p class = "card-label">Surname: </p>
+	    <p class = "card-label">Date Of Birth </p>
+		
+	  
+	  </div>
+	  
+	  <ul> 
+	    <li><a href = "#" onclick = "changeCardOrientation()">Front</a></li>
+	    <li><a href = "#">Back</a></li>
+	  
+	  </ul>
+	  
+    </div> <!-- end main content -->
+	<script src = "scripts/cardJs.js" type = "text/javascript"></script>
+  
+  
+  <footer style = "text-align:center; "> Copyright Pauticon</footer>
+  </body>
+
+
+</html>
