@@ -1,22 +1,33 @@
+body{
+	font-family:verdana;
+	background-color:#e2e2e2;
+}
+
 #main-content {
-	background-color:cyan;
+	background-color:#c2c3c4;
 	margin: 0 auto;
 	max-width: 1500px;
 	padding:5px;
 	
+	
 }
 
+
+
 h1 {
+	margin-top:0;
 	text-align:center;
 }
 
 .details-container{
+
+	box-shadow: 0px 10px 5px #000000;
 	margin:0 auto;
 	width:400px;
 	padding:10px;
-	background-color:yellow;
-	font-size:20px;
-		animation-name:example;
+	background-color:#b2daff;
+	font-size:15px;
+	animation-name:example;
 	animation-duration:2.5s;
 }
 
@@ -29,19 +40,23 @@ h1 {
 	
 }
 
+.details-container >.input-box  >ul >li {
+	display:inline;
+}
 
 .card-container{
+	box-shadow: 0px 10px 10px #000000;
 	margin-top:20px;
 	border-radius:10px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:10px;
-	background-color:yellow;
+	background-color:#b2daff;
 	padding:5px;
 	width:400px;
 	height:250px;
     word-wrap:break-word;
-	
+	font-size:15px;	
 	animation-name:example;
 	animation-duration:5s;
 }
@@ -73,5 +88,12 @@ ul {
 ul >li{
 	margin:0 auto;
 	display:inline-block;
+	padding:5px;
+}
+
+footer {
+	text-align:center; 
+	background-color:#b2daff; 
+	margin-bottom:0;
 	padding:5px;
 }
